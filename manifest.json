@@ -1,0 +1,15 @@
+{
+    "name": "NoCyrillicGames",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Remove games with cyrillic letters in their title",
+    "permissions": ["tabs", "scripting"],
+    "host_permissions": [
+        "https://www.roblox.com/*",
+        "https://web.roblox.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {}
+}
